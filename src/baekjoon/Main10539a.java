@@ -10,11 +10,12 @@ public class Main10539a {
     Scanner scan = new Scanner(System.in);
     int count = scan.nextInt();
     int[] temp = new int[count];
-    int inc = 0;
     for (int i = 0; i < count; i++) {
       temp[i] = scan.nextInt() * (i+1);
-      System.out.print(temp[i] - inc + " ");
-      inc += temp[i] - inc;
+    }
+    System.out.print(temp[0]);
+    for (int i = 1; i < count; i++) {
+      System.out.print(" " + (temp[i] - temp[i-1]));
     }
   }
 }
