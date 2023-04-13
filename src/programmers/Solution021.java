@@ -9,8 +9,8 @@ public class Solution021 {
     int b = 5;
     long answer = 0;
 
-    int min = Math.min(a, b);
-    int max = Math.max(a, b);
+    long min = Math.min(a, b);
+    long max = Math.max(a, b);
 //
 //    for (int i = min; i <= max; i++) {
 //      if (a == b) break;
