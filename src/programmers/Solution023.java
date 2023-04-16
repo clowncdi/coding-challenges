@@ -1,8 +1,6 @@
 package programmers;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * 서울에서 김서방 찾기
