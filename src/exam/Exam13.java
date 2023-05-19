@@ -1,9 +1,9 @@
-package etc;
+package exam;
 
 /**
  * 다이아몬드 별 찍기
  */
-public class Exam4 {
+public class Exam13 {
   public static void main(String[] args) {
     int line = 11; // 홀수
     for (int i = 0; i < line; i++) {

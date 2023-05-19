@@ -1,4 +1,4 @@
-package etc;
+package exam;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
 * 패 - 가위(1) : 바위(2), 바위(2) : 보(3), 보(3) : 가위(1) = -1, 2
 * 승 - 가위(1) : 보(3), 바위(2) : 가위(1), 보(3) : 바위(2) = -2, 1
 */
-public class Exam1 {
+public class Exam10 {
   public static void main(String[] args) {
     // 가위(1), 바위(2), 보(3)
     Scanner sc = new Scanner(System.in);

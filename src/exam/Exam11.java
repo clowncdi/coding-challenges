@@ -1,4 +1,4 @@
-package etc;
+package exam;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 * 3,6,9 게임
 * 1,2,#,4,5,#,7,8,#,10,11,12,1#,14,15,1#,...
 * */
-public class Exam2 {
+public class Exam11 {
   public static void main(String[] args) {
     // 특정 숫자까지 3,6,9 진행하기
     Scanner sc = new Scanner(System.in);

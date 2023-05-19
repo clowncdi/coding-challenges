@@ -1,4 +1,4 @@
-package etc;
+package exam;
 
 /**
  * 다음과 같은 형태로 패턴이 이어질 때 60번째의 배열값을 얻어보세요.
@@ -6,7 +6,7 @@ package etc;
  * {"●", "☆", "", "○", "★", "□", "", "☆", "■", "○"};
  * {"●", "☆", "■", "○", "★", "□", "●", "☆", "■", "○"};
  */
-public class Exam5 {
+public class Exam14 {
   public static void main(String[] args) {
     // 60번 반복
     // 동그라미, 별, 네모
